@@ -1,0 +1,13 @@
+I’ve completed performance test on this application
+Test executed for the below mentioned scenario in 
+(Home Page) https://testapp.cisstaging.com/  =>
+	(Generator Page) https://testapp.cisstaging.com/generator  =>
+		
+200 Concurrent Request with 1 Loop Count and Total Concurrent API requested: 400.
+500 Concurrent Request with 1 Loop Count and Total Concurrent API requested: 1000.
+1000 Concurrent Request with 1 Loop Count and Total Concurrent API requested: 2000.
+
+
+While executed 200 concurrent request, found error rate is 0.5%.
+
+Summary: Server can handle almost concurrent 200 API call with almost zero error rate.
